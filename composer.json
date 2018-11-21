@@ -10,7 +10,9 @@
         }
     ],
     "minimum-stability": "stable",
-    "sort-packages": "true",
+    "config": {
+        "sort-packages": true
+    },
     "require": {},
     "require-dev": {
         "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
