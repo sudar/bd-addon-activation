@@ -1,0 +1,14 @@
+{
+    "name": "bulk-wp/bulk-delete-addon-activator",
+    "description": "Bulk Delete Add-on Activator Library",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Sudar Muthu",
+            "email": "sudar@sudarmuthu.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
