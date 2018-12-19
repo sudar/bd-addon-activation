@@ -28,21 +28,21 @@ class BulkDeleteAddonActivator {
 	 *
 	 * @var string
 	 */
-	private $addon_name;
+	protected $addon_name;
 
 	/**
 	 * Add-on path.
 	 *
 	 * @var string
 	 */
-	private $addon_directory;
+	protected $addon_directory;
 
 	/**
 	 * Add-on file.
 	 *
 	 * @var string
 	 */
-	private $addon_file;
+	protected $addon_file;
 
 	/**
 	 * Is Bulk Delete plugin installed?
@@ -51,42 +51,42 @@ class BulkDeleteAddonActivator {
 	 *
 	 * @var bool
 	 */
-	private $has_bd;
+	protected $has_bd;
 
 	/**
 	 * Bulk Delete plugin base path.
 	 *
 	 * @var string
 	 */
-	private $bd_base;
+	protected $bd_base;
 
 	/**
 	 * Is Bulk Delete plugin active.
 	 *
 	 * @var bool
 	 */
-	private $is_bd_active;
+	protected $is_bd_active;
 
 	/**
 	 * Bulk Delete plugin version.
 	 *
 	 * @var string
 	 */
-	private $bd_version;
+	protected $bd_version;
 
 	/**
 	 * Minimum version of Bulk Delete that is needed.
 	 *
 	 * @var string
 	 */
-	private $required_bd_version;
+	protected $required_bd_version;
 
 	/**
 	 * Minimum version of PHP that is needed.
 	 *
 	 * @var string
 	 */
-	private $required_php_version;
+	protected $required_php_version;
 
 	/**
 	 * Setup the activation class.
