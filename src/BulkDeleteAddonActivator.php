@@ -93,9 +93,11 @@ class BulkDeleteAddonActivator {
 	 *
 	 * @param string $addon_file_path      Add-on main file.
 	 * @param string $required_bd_version  The minimum version of Bulk Delete that is required. Default 6.0.0.
-	 * @param string $required_php_version The minimum version of PHP that is required. Default is 5.3.0.
+	 * @param string $required_php_version The minimum version of PHP that is required. Default is 5.6.0.
+	 *
+	 * @since 1.0.0 minimum required version of PHP is increased to 5.6.0.
 	 */
-	public function __construct( $addon_file_path, $required_bd_version = '6.0.0', $required_php_version = '5.3.0' ) {
+	public function __construct( $addon_file_path, $required_bd_version = '6.0.0', $required_php_version = '5.6.0' ) {
 		$this->required_bd_version  = $required_bd_version;
 		$this->required_php_version = $required_php_version;
 
